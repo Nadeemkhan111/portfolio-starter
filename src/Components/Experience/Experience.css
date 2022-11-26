@@ -34,4 +34,8 @@
     left: -8px;
     position: absolute;
     z-index: -1;
+    box-shadow: var(--boxShadow);
+}
+.achievement span:nth-of-type(2){
+    color: var(--orange);
 }

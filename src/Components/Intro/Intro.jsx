@@ -9,7 +9,7 @@ import boy from "../../img/boy.png";
 import thumbup from "../../img/thumbup.png";
 import Crown from "../../img/crown.png";
 import glassesimoji from "../../img/glassesimoji.png";
-import glasses from "../../img/glasses.png";
+// import glasses from "../../img/glasses.png";
 import FlotingDiv from "../FlotingDiv/FlotingDiv";
 const Intro = () => {
   return (
