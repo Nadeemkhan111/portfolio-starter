@@ -11,6 +11,8 @@ import Crown from "../../img/crown.png";
 import glassesimoji from "../../img/glassesimoji.png";
 // import glasses from "../../img/glasses.png";
 import FlotingDiv from "../FlotingDiv/FlotingDiv";
+import { motion } from "framer-motion"
+
 const Intro = () => {
   return (
     <div className="intro">
