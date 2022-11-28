@@ -1,7 +1,8 @@
 .services{
     padding: 0 3rem 0 3rem;
+    padding-top: 3rem;
     display: flex;
-    height: 90vh;
+    height: 30rem;
     margin-bottom: 8rem;
     margin-top: 9rem;
     margin-bottom: 13rem;
@@ -31,4 +32,38 @@
     width: 8rem;
     height: 2rem;
     margin-top: 1rem;
+}
+.cards{
+    position: relative;
+}
+.cards>*{
+    position: absolute;
+}
+.s-blur2 {
+    left: 14rem;
+    top: 8rem;
+  }
+  .s-blur1 {
+    top: 13rem;
+    left: -18rem;
+  }
+
+
+@media screen and (max-width:480px) {
+    .services{
+        margin-top: 0;
+        flex-direction: column;
+        gap: 5rem;
+        padding: 0;
+        height: 66rem;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        gap: 17rem;
+    }
+    .cards>*{
+        position: static;
+    }
+    
 }

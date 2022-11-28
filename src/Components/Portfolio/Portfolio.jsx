@@ -13,7 +13,7 @@ import "swiper/css/navigation";
 
 const Portfolio = () => {
   return (
-    <div className="portfolio">
+    <div className="portfolio" id="Portfolio">
       {/* heading */}
 
       <span>Resent Projects</span>

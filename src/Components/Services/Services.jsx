@@ -7,7 +7,7 @@ import Card from "../Card/Card";
 import Resume from "../../img/Khan Resume.pdf";
 const Services = () => {
   return (
-    <div className="services">
+    <div className="services" id="Services">
       {/* left side */}
       <div className="awesome">
         <span>My Awesome</span>

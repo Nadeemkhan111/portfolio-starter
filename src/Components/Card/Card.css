@@ -45,3 +45,9 @@
     left: -18rem;
     top: 13rem;
 }
+@media screen and (max-width: 480px) {
+    .card{
+        width: auto;
+    }
+    
+}
